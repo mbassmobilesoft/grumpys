@@ -37,7 +37,9 @@
   font-size: 5rem;
 }
 
-
+.abouth3{
+  font-size: 50px;
+}
 
 .aboutIntro {
   margin-top: -15px;
@@ -691,6 +693,10 @@ h1 {
     width: 100%
   }
 
+  .abouth3{
+    font-size: 30px;
+  }
+
   .detainedBox {
     width: 100%;
 }
@@ -749,6 +755,10 @@ display: none;
 
   .aboutH1{
     font-size: 2rem;
+  }
+
+  .abouth3{
+    font-size: 30px;
   }
 
   .detainedBox {
@@ -839,6 +849,10 @@ display: none;
 
   .aboutH1{
     font-size: 2rem;
+  }
+
+  .abouth3{
+    font-size: 30px;
   }
 
   .detainedBox {
@@ -939,6 +953,10 @@ display: none;
       font-size: 2rem;
     }
 
+    .abouth3{
+      font-size: 30px;
+    }
+
     .detainedBottomContent {
       width: 95%;  
       display: flex;
@@ -1008,6 +1026,10 @@ display: none;
 
     .aboutH1{
       font-size: 2rem;
+    }
+
+    .abouth3{
+      font-size: 30px;
     }
 
     .leahBailImg {
