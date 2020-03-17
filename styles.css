@@ -320,6 +320,10 @@ h1 {
     width: 100%;
   }
 
+  .locationImg {
+    width: 100%
+  }
+
   .locationSection {
     width: 100%;
     display: flex;
