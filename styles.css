@@ -82,7 +82,7 @@
 }
 
 .appStoreLogo {
-  width: 100%;
+  width: 90%;
 }
 
 .assistanceContent {
@@ -402,6 +402,23 @@ h1 {
   .mobileNumberContainer {
     display: flex;
     flex-direction: row;
+    width: 95%;
+  }
+
+  .mobileNumber {
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+ .mobileNumber:hover {
+  color: red;
+}
+
+  .mobilePhones {
+    width: 75%
   }
   
   .mobileSection {
@@ -422,17 +439,6 @@ h1 {
 
 }
 
-.mobileNumber {
-    color: white;
-    font-size: 2.5rem;
-    font-weight: bolder;
-    margin-left: 50px;
-    text-decoration: none;
-}
-
- .mobileNumber:hover {
-  color: red;
-}
 
 .mobileText {
   color: white;
@@ -673,7 +679,6 @@ h1 {
 
 
 @media screen and (max-width: 900px){
-  *{ margin : 0; padding : 0;box-sizing: border-box;}
   .aboutH1{
     font-size: 2rem;
   }
@@ -740,7 +745,6 @@ display: none;
 }
 
 @media screen and (max-width: 1000px) {
-  *{ margin : 0; padding : 0;box-sizing: border-box;}
   .about {
     width: 100%
   }
@@ -817,6 +821,10 @@ display: none;
     flex-direction: column;
     }
 
+    .mobileh1 {
+      font-size: 30px;
+    }
+
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -827,7 +835,6 @@ display: none;
 }
 
 @media screen and (max-width: 600px) {
-  *{ margin : 0; padding : 0;box-sizing: border-box;}
   .about {
     width: 100%
   }
@@ -926,7 +933,6 @@ display: none;
 }
   
   @media screen and (max-width: 500px) {
-    *{ margin : 0; padding : 0;box-sizing: border-box;}
     .about {
       width: 100%
     }
@@ -998,7 +1004,6 @@ display: none;
   }
   
   @media screen and (max-height: 450px) {
-    *{ margin : 0; padding : 0; box-sizing: border-box;}
     .about {
       width: 100%
     }
