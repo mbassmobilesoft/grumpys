@@ -1,0 +1,540 @@
+
+.about {
+    background: white;
+    color: black;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.aboutH1 {
+    font-size: 100px;
+}
+
+.abouth3 {
+    color: black;
+}
+
+.aboutIntro {
+    margin-top: -15px;
+}
+
+.aboutBottom {
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.aboutContent {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#aboutFirstP {
+   margin-left: 25px;
+}
+
+.aboutHead {
+    color:black;
+}
+
+.aboutIntro {
+    margin-top: -15px;
+}
+
+.aboutImg {
+    width: 100%;
+}
+
+.aboutTop {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.appshare {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+.appshareContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.appshareDiv {
+    margin-top: -20px;
+}
+
+#appStoreLogo {
+    width: 48%;
+}
+
+.assistanceContent {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+}
+
+.assistanceImg {
+    width:100%;
+    border-radius: 15px;
+}
+
+.bailHR {
+    height: 5px;
+    background-color: red;
+    border: red;
+    width: 15%;
+    margin-left: 5px;
+}
+
+.bailLogo {
+    width: 15%;    
+}
+
+body,html { 
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.callNow {
+    background-color: green;
+    width: 380px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.callNowContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.callNowText {
+    color: white;
+    font-size: 50px;
+}
+
+.contactNumber {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -15%;
+}
+
+.detained {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 25px;
+}
+
+.detainedContent {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.detainedContainer {
+    padding: 10px;
+}
+
+.detainedSteps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.espanol {
+    color: red;
+}
+
+.espanolContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.fianzas {
+    color: rgb(124, 61, 61);
+}
+
+.footer {
+    width: 100%;   
+    background-color: rgb(46, 45, 45);
+    height: 125px;
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.freedomHR{
+    height: 5px;
+    background-color: red;
+    border: red;
+    width: 50%;
+    margin-left: -10px;
+}
+
+.grumpysLogo {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.grumpysText {
+    font-size: 25px;
+}
+
+h1 {
+    margin-top: 100px;
+	text-align:center;
+	font-size:60px;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+    padding-left: 50%;    
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.headerh1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+ }
+
+.homeWebBody {
+	background: #212121;
+	font-size: 25px;
+	line-height: 32px;
+	color: #ffffff;
+	word-wrap:break-word !important;
+	font-family: 'Open Sans', sans-serif;
+} 
+
+.homeWebContainer{
+    background-color: black;
+}
+
+.leah2 {
+    margin-left: 200px;
+}
+
+li {
+    font-size: 25px;
+}
+
+.locationImg {
+    width: 100%;
+}
+
+.locationBox {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.locationsImg {
+    width: 100%
+}
+
+.mapImg {
+    width: 100%;
+}
+
+#menu {
+    font-size: 25px;
+    display: block;
+    width: 100%;
+    border: none;
+    color: rgb(126, 121, 121);
+    padding-left: 25px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 25px;
+    
+}
+
+.mobileApp {
+    width: 100%;
+    background-color: grey;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.mobileAppContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+
+.mobileContentText {
+    margin-left: 50px;
+}
+
+.mobileHeader {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+}
+
+.mobileInstall {
+    color: white;
+    font-size: 325%;
+}
+
+.mobileLanding {
+    display: block;
+    background-image: url("./Assets/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.mobileNumberContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.MobileSoft {
+    color: red;
+    margin-left: 5px;
+}
+
+.mobileTextHeader {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 300%;
+}
+
+.MSpowered {
+    color: white;
+    margin-top: 30px;
+}
+
+.needBail {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    padding-left: 100px;
+    
+}
+
+#newsField {
+    margin-top: -15px;
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.phones {
+    width: 100%
+}
+
+.readMore {
+    color: red;
+}
+
+  .videoContainer {
+      border: 1px solid red;
+  }
+
+  .videos {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+  }
+
+  .warriorBox {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    background-color: black;
+    color: white;
+}
+
+.yourFreedom {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+}
+
+
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 25px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
