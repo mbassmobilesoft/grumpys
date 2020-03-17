@@ -1,242 +1,1051 @@
-#appointmentBtn {
-    margin-top: 500px;
+.about {
+  background: white;
+  color: black;
+  width: 70%;
+  margin: 0 auto;
 }
 
-.apptBtn {
-    width: 90%;
-    border-radius: 10px
+.aboutIntro {
+  margin-top: -15px;
 }
 
-.apptTow {
-    margin-top: 25px;
+.aboutBottom {
+  width: 75%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.aboutContent {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#aboutFirstP {
+ margin-left: 25px;
+}
+
+.aboutHead {
+  color:black;
+}
+
+.aboutHeader {
+  width: 100%;
+}
+
+.aboutH1 {
+  font-size: 5rem;
+}
+
+.abouth3 {
+  color: black;
+}
+
+.aboutIntro {
+  margin-top: -15px;
+}
+
+.aboutImg {
+  width: 100%;
+}
+
+.aboutTop {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.appshare {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+
+.appshareContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.appshareDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.appStoreLogo {
+  width: 100%;
+}
+
+.assistanceContent {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  
+}
+
+.assistanceImg {
+  width:100%;
+  border-radius: 15px;
+}
+
+.bailHR {
+  height: 5px;
+  background-color: red;
+  border: red;
+  width: 15%;
+  margin-left: 5px;
+}
+
+.bailLogo {
+  width: 15%;    
 }
 
 body p {
-    margin: 0; 
-    padding: 0;
-    overflow-x: hidden;
-  }
-
-.contactBox {
-    display: flex;
-    flex-direction: row;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0; 
+  padding: env(safe-area-inset);
+  overflow-x: hidden;
 }
 
-.contactBtn {
-    width: 65%;
-    border-radius: 15px;
+.callNow {
+  background-color: green;
+  width: 280px;
+  border-radius: 10px;
+  height: 40px;
+  margin: 0 auto;
 }
 
-.contactBtns {
-    margin-left: -75px;
-    margin-top: 50px;
+
+.callNowText {
+  color: white;
+  font-size: 35px;
+  text-decoration: none;
 }
 
-.coupon {
+.contactNumber {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: -15%;
+}
+
+.callToday {
+text-decoration: none;
+color: red;
+}
+
+.detained {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 25px;
+}
+
+.detainedContainer {
+  padding: 15px;
+}
+
+.detainedBox {
+    margin: 15px;
     width: 100%;
-    margin-top: 25px;
 }
 
-.couponBox {
-    margin-top: 50px;
-    z-index: 2;
-    position: absolute;
-    width: 85%;
-    margin-top: 250px;
-    background-color: #002C65;
-    border-radius: 15px;
-    margin-left: 20px;
+.detainedBottomContent {
+  width: 100%;  
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 15px;
+  margin-top: -50px
 }
 
-.couponImg {
-    width: 90%;
-    position: absolute;
-    margin-left: -170px;
-    z-index: 1;
-    margin-top: 50px; 
+.detainedContent {
+  width: 100%;  
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+.detainedSection {
+background-color: black;
+color: white;
+padding: 15px;
+}
+
+.detainedSteps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  
+}
+
+.freedomContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.espanol {
+  color: red;
+}
+
+.espanolContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ }
+
+.fianzas {
+  color: rgb(124, 61, 61);
+  margin-left: 5px;
 }
 
 .footer {
-    background-color: #002C65;
-    bottom:0;
-    height: 60px;
-    width: 105%;
-    margin-left: -10px
-
+  width: 100%;   
+  background-color: black;
+  height: 125px;
 }
 
-#footerIcon {
-    color: white;
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
 }
 
-.hdrText {
-    width: 200%;
-    transform: rotate(270deg);
-    margin-left: -125px;
-    margin-top: 210px;
+.freedomContent {
+color: black;
+
+padding: 15px;
 }
 
-.headerLogo {
-    width: 90%;
+.freedomHR{
+  height: 5px;
+  background-color: red;
+  border: red;
+  width: 50%;
+  margin-left: -10px;
 }
 
-.homeBody {
-    background-image: url('bg-1.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+.freedomSection {
+  background-color: white;
+  color: white;
+  }
+
+.grumpysLogo {
+  margin: 0 auto;
+  width: 50%;
 }
 
-.homeHeader {
-    width: 110%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: white;
-    margin-top: -10px;
-    margin-left: -5px
+h1 {
+  margin-top: 100px;
+  text-align:center;
+  font-size:60px;
 }
 
-.homeLogo {
-    width: 25%;
-    padding-left: 15px;
-    padding-top: 15px
+.header {
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: -20px;
+  padding-left: 50%;    
 }
 
-.hoursBox {
-    background-color: #002C65;
-    border-radius: 15px;
-    padding: 10px;
-    width: 85%;
+.headerh1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
 }
 
-.hoursContent {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: white;
-}
-
-.hoursTXT {
-    width: 90%
-}
-
-.iconRow {
-    padding-top: 15px;
-}
-
-.icon {
-    width: 40%;
-}
-
-.icons {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    color: white;
-}
-
-.loyaltyBody {
-    background-image: url('bg-2.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.loyaltyBox {
-    display: flex;
-    flex-direction: row;
-}
-
-.loyaltyLogo {
-    width: 90%;
-    border-radius: 15px;
-}
-
-.moreBtn {
-    width: 85%;
-    border-radius: 15px;
-    margin-top: 10px
-}
-
-.moreHR {
-    width: 1px;
-    transform: rotate(180deg);
-    color: #002C65;
-    border: 2px solid #002C65;
-    margin-top: -10px;
-    margin-left: 5px;
-}
-
-.notification {
-    width: 35%;
-    margin-top: 25px;
-    border: 1px solid red;
-}
-
-.special {
-    background-image: url('bg-2.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-#selectedIcon {
-    color: rgb(136, 139, 141);
-}
-
-.socialBox {
-    display: flex;
-    flex-direction: row;
-}
-
-.socialIcon {
+.homeWebBody {
+  background: #212121;
+  font-size: 25px;
+  line-height: 32px;
+  color: #ffffff;
+  word-wrap:break-word !important;
+  } 
+  
+  .homeWebContainer{
+    background-color: black;
+  }
+  
+  .leah2 {
     width: 50%
-}
+  }
 
-.socialIcons {
+  .leahBailImg {
+    float: right; 
+    width:50%; 
+    margin-right:15px;
+  }
+  
+  .leahMobilePng {
+    display: none;
+  }
+  
+  .leahPng {
+    float: right;
+  }
+  
+  li {
+    font-size: 25px;
+  }
+
+  .locationsBox {
+    width: 90%;
     display: flex;
-    flex-direction: column;
-}
-
-.specialArrow {
-    width: 80%;
-}
-
-.specialBox {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
     justify-content: space-between;
-}
+    padding: 15px;
+    margin: 0 auto;
+  }
 
-.specialH3 {
-    font-size: 15px;
-    margin-top: 10px;
-}
+  .locationContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
 
-.specialImg {
+  .locationImg {
+    width: 100%
+  }
+
+  .locationSection {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 25px;
+  }
+  
+  .mapImg {
     width: 50%;
+    height: 760px;
+  }
+  
+  #menu {
+    font-size: 25px;
+    display: block;
+    width: 100%;
+    border: none;
+    color: rgb(126, 121, 121);
+    padding-left: 25px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 25px;
+    
+  }
+
+  .menu:hover {
+    color: red;
+  }
+  
+  .mobileApp {
+    width: 100%;
+    background-color: grey;
+    padding: 50px;
+    margin-top: 50px;
+  }
+  
+  .mobileAppContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+  }
+  
+  .mobileContent {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  }
+  
+  .mobileHeader {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .mobileInstall {
+    color: white;
+    font-size: 325%;
+  }
+  
+  .mobileLanding {
+    display: block;
+    background-image: url("hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .mobileNumberContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .mobileSection {
+    background-color: grey;
+  }
+  
+  .MobileSoft {
+    color: red;
+    margin-left: 5px;
+    text-decoration: none;
+  }
+
+  .mobileNews {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  padding: 15px;
+
 }
 
-.specialP {
-    font-size: 10px;
-    margin-top: -15px;
+.mobileNumber {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-left: 50px;
+    text-decoration: none;
 }
 
-.towingBtn {
+ .mobileNumber:hover {
+  color: red;
+}
+
+.mobileText {
+  color: white;
+  margin: 0 auto;
+}
+
+.mobileTextHeader {
+  color: white;
+  font-size: 300%;
+}
+
+.MSpowered {
+  color: white;
+  margin-top: 30px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+  margin-top: -20px;
+
+}
+
+.navbar a {
+  float: left;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  width: 13%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+}
+
+.needBail {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  color: black;
+  padding: 15px;
+  
+}
+
+.newsContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  }
+
+#newsField {
+  margin-top: -15px;
+}
+
+.newsSubHead {
+  margin-top: -15px
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+  
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+
+}
+  
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  margin: 25px
+}
+  
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+  
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  font-size: 3.75rem;
+}
+
+.overlayText {
+  color: red;
+}
+
+.readMore {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.sehabla {
+  width: 100%;
+  background-color: black;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 5px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.topnav a:not(:first-child), .dropdown .dropbtn {
+  display: none;
+}
+.topnav a.icon {
+  float: right;
+  display: block;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav.responsive {position: relative;}
+.topnav.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+.topnav.responsive .dropdown {float: none;}
+.topnav.responsive .dropdown-content {position: relative;}
+.topnav.responsive .dropdown .dropbtn {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.videoContainer {
+  border: 1px solid red;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.warrior {
+  height: 75%;
+  margin-top: 25px;
+}
+
+.warriorBox {
+  padding: 15px;
+}
+
+.warriorContainer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: white;  
+}
+
+.warriorContent {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.warriorImg {
+  width: 250%
+}
+
+.warriorBox {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+}
+
+.yourFreedom {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  color: black;
+}
+
+
+@media screen and (max-width: 900px){
+
+  .aboutH1{
+    font-size: 2rem;
+  }
+  
+  .mobileContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about {
+    width: 100%
+  }
+
+  .detainedBox {
+    width: 100%;
+}
+
+.leah2 {
+  display: none;
+}
+
+.leahBailImg {
+display: none;
+}
+
+  .leahPng {
+    display: none;
+  }
+
+  .leahMobilePng {
+    display: block;
+    width: 100%
+  }
+
+  .locationsBox {
     width: 90%;
-    border-radius: 10px
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 0 auto;
+  }
+
+  .locationContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .locationSection {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .mapImg {
+    width: 100%;
+    height: 460px;
+  }
+
 }
 
-.towingImg {
+@media screen and (max-width: 1000px) {
+
+  .about {
+    width: 100%
+  }
+
+  .aboutH1{
+    font-size: 2rem;
+  }
+
+  .detainedBox {
+    width: 100%;
+  }
+
+  .detainedBottomContent {
+    width: 95%;  
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .detainedContent {
+    width: 95%;  
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .leahBailImg {
+    display: none;
+    }
+
+  .leah2 {
+    display: none;
+  }
+  
+  .leahPng {
+    display: none;
+  }
+
+  .leahMobilePng {
+    display: block;
+    width: 100%
+  }
+
+  .locationsBox {
     width: 90%;
-    border-radius: 15px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 0 auto;
+  }
+
+  .locationContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .locationSection {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .mapImg {
+    width: 100%;
+    height: 460px;
+  }
+  .mobileContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
 }
+
+@media screen and (max-width: 600px) {
+
+  .about {
+    width: 100%
+  }
+
+  .aboutH1{
+    font-size: 2rem;
+  }
+
+  .detainedBox {
+    width: 100%;
+  }
+
+  .detainedBottomContent {
+    width: 95%;  
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .detainedContent {
+    width: 95%;  
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .leahBailImg {
+    display: none;
+    }
+
+  .leah2 {
+    display: none;
+  }
+
+  .leahPng {
+    display: none;
+  }
+
+  .leahMobilePng {
+    display: block;
+    width: 100%
+  }
+
+  .locationsBox {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 0 auto;
+  }
+
+  .locationContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .locationSection {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .mapImg {
+    width: 100%;
+    height: 460px;
+  }
+
+  .mobileContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }  
+  
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+  
+  @media screen and (max-width: 500px) {
+
+    .about {
+      width: 100%
+    }
+
+    .aboutH1{
+      font-size: 2rem;
+    }
+
+    .detainedBottomContent {
+      width: 95%;  
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+    }
+  
+    .detainedContent {
+      width: 95%;  
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+    }
+
+    .leah2 {
+      display: none;
+    }
+
+    .leahBailImg {
+      display: none;
+      }
+
+    .leahPng {
+      display: none;
+    }
+
+    .locationsBox {
+      width: 93%;
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+      margin: 0 auto;
+    }
+
+    .locationContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 100%;
+    }
+  
+    .locationSection {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow-x: hidden;
+    }
+  
+    .mapImg {
+      width: 100%;
+      height: 460px;
+    }
+    
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+  @media screen and (max-height: 450px) {
+
+    .about {
+      width: 100%
+    }
+
+    .aboutH1{
+      font-size: 2rem;
+    }
+
+    .leahBailImg {
+      display: none;
+      }
+
+    .leah2 {
+      display: none;
+    }
+
+    .locationsBox {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+      margin: 0 auto;
+    }
+
+    .locationContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 100%;
+    }
+  
+    .locationSection {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow-x: hidden;
+    }
+  
+    .mapImg {
+      width: 100%;
+      height: 460px;
+    }
+    
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 2.5rem;
+    top: 15px;
+    right: 35px;
+    }
+  }
