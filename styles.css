@@ -407,7 +407,7 @@ h1 {
 
   .mobileNumber {
     color: white;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: bolder;
     margin-left: 50px;
     text-decoration: none;
@@ -689,6 +689,10 @@ h1 {
     flex-direction: column;
   }
 
+  .mobileNumber {
+    font-size: 2rem;
+  }
+
   .about {
     width: 100%
   }
@@ -833,6 +837,10 @@ display: none;
       font-size: 30px;
     }
 
+    .mobileNumber {
+      font-size: 2rem;
+    }
+
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -923,6 +931,10 @@ display: none;
     display: flex;
     flex-direction: column;
   }  
+
+  .mobileNumber {
+    font-size: 2rem;
+  }
   
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -1010,6 +1022,10 @@ display: none;
       width: 100%;
       height: 460px;
     }
+
+    .mobileNumber {
+      font-size: 2rem;
+    }
     
     .navbar a {
       float: none;
@@ -1066,6 +1082,10 @@ display: none;
     .mapImg {
       width: 100%;
       height: 460px;
+    }
+
+    .mobileNumber {
+      font-size: 2rem;
     }
     
     .overlay a {font-size: 20px}
