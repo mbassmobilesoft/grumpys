@@ -369,6 +369,10 @@ h1 {
     justify-content: center;
     width: 80%;
   }
+
+  .mobile-container {
+    display: none;
+  }
   
   .mobileContent {
   width: 80%;
@@ -397,6 +401,10 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .mobileMenu {
+    display: none;
   }
   
   .mobileNumberContainer {
@@ -439,7 +447,6 @@ h1 {
 
 }
 
-
 .mobileText {
   color: white;
   margin: 0 auto;
@@ -460,7 +467,6 @@ h1 {
   background-color: black;
   overflow: hidden;
   margin-top: -20px;
-
 }
 
 .navbar a {
@@ -487,7 +493,6 @@ h1 {
   background-color: white;
   color: black;
   padding: 15px;
-  
 }
 
 .newsContent {
@@ -564,7 +569,7 @@ h1 {
   background-color: black;
 }
 
-.topnav {
+/* .topnav {
   overflow: hidden;
   background-color: black;
 }
@@ -582,7 +587,7 @@ h1 {
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: #555;
   color: white;
-}
+} */
 
 .dropdown-content a:hover {
   background-color: #ddd;
@@ -593,7 +598,7 @@ h1 {
   display: block;
 }
 
-.topnav a:not(:first-child), .dropdown .dropbtn {
+/* .topnav a:not(:first-child), .dropdown .dropbtn {
   display: none;
 }
 .topnav a.icon {
@@ -622,7 +627,7 @@ h1 {
   display: block;
   width: 100%;
   text-align: left;
-}
+} */
 
 .videoContainer {
   border: 1px solid red;
@@ -677,16 +682,64 @@ h1 {
   color: black;
 }
 
+/* .mobile-container {
+  max-width: 480px;
+  margin: auto;
+  color: white;
+  border-radius: 10px;
+  margin-top: -50px;
+} */
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 
 @media screen and (max-width: 900px){
   .aboutH1{
     font-size: 2rem;
+  }
+
+  .mobile-container {
+    display: block;
+    margin-top: -20px
   }
   
   .mobileContent {
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+
+  .mobileMenu {
+    display: block;
   }
 
   .mobileNumber {
@@ -752,7 +805,7 @@ display: none;
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .about {
     width: 100%
   }
@@ -837,18 +890,16 @@ display: none;
       font-size: 30px;
     }
 
+    .mobileMenu {
+      display: block;
+    }
+
     .mobileNumber {
       font-size: 2rem;
     }
 
-
-  .mobile-container {
-    max-width: 480px;
-    margin: auto;
-    background-color: #555;
-    height: 500px;
-    color: white;
-    border-radius: 10px;
+  .navbar {
+    display: none;
   }
   
   .topnav {
@@ -881,7 +932,6 @@ display: none;
     background-color: #ddd;
     color: black;
   }
-
 
 }
 
@@ -966,6 +1016,10 @@ display: none;
     display: flex;
     flex-direction: column;
   }  
+
+  .mobileMenu {
+    display: block;
+  }
 
   .mobileNumber {
     font-size: 2rem;
@@ -1058,6 +1112,10 @@ display: none;
       height: 460px;
     }
 
+    .mobileMenu {
+      display: block;
+    }
+
     .mobileNumber {
       font-size: 2rem;
     }
@@ -1117,6 +1175,10 @@ display: none;
     .mapImg {
       width: 100%;
       height: 460px;
+    }
+
+    .mobileMenu {
+      display: block;
     }
 
     .mobileNumber {
