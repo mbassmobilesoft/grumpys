@@ -30,99 +30,49 @@
 </section>  
 
 <!-- NAV MENU -->
+
 <div class="navbar">
-    <a class=" active menu" href="index.html">Home</a> 
-    <a class="menu" href="about.html">About Us</a>
-    <a class="menu" href="locations.html">Office Locations</a>
-    <a class="menu" style="font-size:25px;cursor:pointer" onclick="openNav()">Counties Served</a>
-        <div id="myNav" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
-                <a href="cannon.html">Cannon</a>
-                <a href="cheatham.html">Cheatham</a>  
-                <a href="davidson.html">Davidson</a>
-                <a href="dickson.html">Dickson</a>
-                <a href="giles.html">Giles</a>
-                <a href="hickman.html">Hickman</a>
-                <a href="houston.html">Houston</a>
-                <a href="humphreys.html">Humphreys</a>
-                <a href="lawrence.html">Lawrence</a>
-                <a href="lewis.html">Lewis</a>
-                <a href="maury.html">Maury</a>
-                <a href="montgomery.html">Montgomery</a>
-                <a href="perry.html">Perry</a>
-                <a href="robertson.html">Robertson</a>
-                <a href="rutherford.html">Rutherford</a>
-                <a href="stewart.html">Stewart</a>
-                <a href="wayne.html">Wayne</a>
-                <a href="williamson.html">Williamson</a>
-            </div>
+<a class="menu" href="index.html">Home</a> 
+<a class="menu" href="about.html">About Us</a>
+<a class="active menu" href="locations.html">Office Locations</a>
+<a class="menu" style="font-size:25px;cursor:pointer" onclick="openNav()">Counties Served</a>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="cannon.html">Cannon</a>
+            <a href="cheatham.html">Cheatham</a>  
+            <a href="davidson.html">Davidson</a>
+            <a href="dickson.html">Dickson</a>
+            <a href="giles.html">Giles</a>
+            <a href="hickman.html">Hickman</a>
+            <a href="houston.html">Houston</a>
+            <a href="humphreys.html">Humphreys</a>
+            <a href="lawrence.html">Lawrence</a>
+            <a href="lewis.html">Lewis</a>
+            <a href="maury.html">Maury</a>
+            <a href="montgomery.html">Montgomery</a>
+            <a href="perry.html">Perry</a>
+            <a href="robertson.html">Robertson</a>
+            <a href="rutherford.html">Rutherford</a>
+            <a href="stewart.html">Stewart</a>
+            <a href="wayne.html">Wayne</a>
+            <a href="williamson.html">Williamson</a>
         </div>
-    <a class="menu" href="videos.html">Videos</a>
-    <a class="menu" href="assistance.html">Assistance</a>
-    <a href="news.html">News</a>
+    </div>
+<a class="menu" href="videos.html">Videos</a>
+<a class="menu" href="assistance.html">Assistance</a>
+<a class="menu" href="news.html">News</a>
 </div>
 
 <script>
-    function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-        } else {
-            x.style.display = "block";
-        }
-    }
-        function openNav() {
-        document.getElementById("myNav").style.width = "100%";
-        }
-        
-        function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-        }
+function openNav() {
+document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+document.getElementById("myNav").style.width = "0%";
+}
 </script>
-
-<!--MOBILE MENU-->
-
-<div class="mobile-container">
-    <div class="topnav">
-      <a class="active">Office Locations</a>
-      <div id="myLinks"> 
-        <a class="menu" href="index.html">Home</a>
-        <a class="menu" href="about.html">About Us</a>
-        <a class="menu" onclick="openNav()">Counties Served</a>
-            <div id="myNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="overlay-content">
-                    <a href="cannon.html">Cannon</a>
-                    <a href="cheatham.html">Cheatham</a>  
-                    <a href="davidson.html">Davidson</a>
-                    <a href="dickson.html">Dickson</a>
-                    <a href="giles.html">Giles</a>
-                    <a href="hickman.html">Hickman</a>
-                    <a href="houston.html">Houston</a>
-                    <a href="humphreys.html">Humphreys</a>
-                    <a href="lawrence.html">Lawrence</a>
-                    <a href="lewis.html">Lewis</a>
-                    <a href="maury.html">Maury</a>
-                    <a href="montgomery.html">Montgomery</a>
-                    <a href="perry.html">Perry</a>
-                    <a href="robertson.html">Robertson</a>
-                    <a href="rutherford.html">Rutherford</a>
-                    <a href="stewart.html">Stewart</a>
-                    <a href="wayne.html">Wayne</a>
-                    <a href="williamson.html">Williamson</a>
-                </div>
-            </div>
-        <a class="menu" href="videos.html">Videos</a>
-        <a class="menu" href="assistance.html">Assistance</a>
-        <a href="news.html">News</a>
-      </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-</div>
-
 <!-- LOCATIONS CONTENT -->
      
  <div class="locationContent">
